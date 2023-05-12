@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "br4Suz8/Je0WIeTPCM0ZgofSPlau+dqvjB+LAc5fDsk+LHkO1nRTZ0bQw0/uESlpODUaUmkgsH2KCtTBsUo89A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nakam\\source\\repos\\Pipeline2\\Pipeline2\\Pipeline2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nakam\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\nakam\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\nakam\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\nakam\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\nakam\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\nakam\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
 using CsvHelper;
-using CsvHelper.Configuration;
 using Nest;
 
 
@@ -43,6 +41,7 @@ namespace Pipeline2
                     if (queue.Count >= 1000)
                     {
                         ProcessQueue(queue);
+                        
                     }
                 }
             }
@@ -110,6 +109,7 @@ namespace Pipeline2
                   
                 }
             }
+
         }
 
         static void SearchDataByDate(DateTime startDate, DateTime endDate)
@@ -122,11 +122,12 @@ namespace Pipeline2
                 .Query(q => q
                     .DateRange(dr => dr
                         .Field(f => f.publish_time)
-                        .GreaterThanOrEquals(startDate)
-                        .LessThanOrEquals(endDate)
+                        .GreaterThanOrEquals(startDate.Date.ToString("yyyy-MM-dd"))
+                        .LessThanOrEquals(endDate.Date.ToString("yyyy-MM-dd"))
                     )
                 )
             );
+
 
             if (searchResponse.IsValid)
             {
